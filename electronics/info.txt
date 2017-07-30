@@ -1,0 +1,7 @@
+The used sensor is VL53L0X (http://www.ebay.co.uk/itm/262942125051). Use arduino IDE. Install VL53L0X libraries in the IDE. Select arduino to flash according to the used model (check arduino type on the ports seperator on the tools seperator).
+
+Make the necessary I2C connections between arduino and the VL53L0X sensor. Check arduino pinout. Check if the sensor is 5V or 3.3V (usually it can work with the 5V but, if not, introduce a step down voltage converter).
+
+Note the short and long range modes of the sensor:
+https://www.adafruit.com/product/3317
+https://forum.pololu.com/t/vl53l0x-long-range-range-profile/11775
